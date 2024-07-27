@@ -1,2 +1,5 @@
-# Graduation-project
-使用机器学习方法快速预测城市洪水
+# LightGBM-flood-prediction
+In this project, a hybrid modeling approach was proposed for the rapid prediction of urban floods, coupling the physically based model with the light gradient boosting machine (LightGBM) model. A hydrological–hydraulic model was used to provide sufficient data for the LightGBM model based on the personal computer stormwater management model (PCSWMM). The variables related to rainfall, tide level, and the location of flood points were used as the input for the LightGBM model. To improve the prediction accuracy, the hyperparameters of the LightGBM model are optimized by a grid search algorithm and K-fold cross-validation. 
+
+For more information, see the paper published on Springer.
+> Xu, K., Han, Z., Xu, H. et al. Rapid Prediction Model for Urban Floods Based on a Light Gradient Boosting Machine Approach and Hydrological–Hydraulic Model. Int J Disaster Risk Sci 14, 79–97 (2023). [https://doi.org/10.1007/s13753-023-00465-2](https://doi.org/10.1007/s13753-023-00465-2)
